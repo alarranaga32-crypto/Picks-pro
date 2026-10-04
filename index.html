@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1020"><meta name="description" content="Panel de análisis de cuotas deportivas y picks con valor esperado.">
+  <title>PICKS PRO | Sports intelligence</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar"><a class="brand" href="#"><span class="brand-mark">P</span><span>PICKS<span class="brand-light">PRO</span><small>SPORTS INTELLIGENCE</small></span></a>
+      <div class="nav-label">ANÁLISIS</div><a class="nav-item active" href="#dashboard"><span>◫</span> Panel principal</a><a class="nav-item" href="#picks"><span>⌁</span> Picks con valor <b id="nav-pick-count">0</b></a>
+      <div class="side-bottom"><div class="live-dot"></div><span>Datos de mercado</span><small id="side-status">En espera</small><p>Las probabilidades estimadas reflejan consenso de cuotas, no un modelo independiente.</p></div>
+    </aside>
+    <main class="main" id="dashboard"><header class="topbar"><div class="mobile-brand">PICKS<span>PRO</span></div><div class="crumb">Dashboard <span>/</span> <b>Mercados deportivos</b></div><div class="top-actions"><span class="updated" id="updated-at">Sin actualizar</span><button class="icon-btn" id="refresh-btn" aria-label="Actualizar datos">↻</button><button class="primary-btn" id="analyze-btn"><span>✦</span> Analizar mercados</button></div></header>
+      <section class="hero"><div><div class="eyebrow"><i></i> SISTEMA DE ANÁLISIS</div><h1>Encuentra valor.<br><em>Decide con criterio.</em></h1><p>Compara cuotas disponibles con probabilidades justas estimadas desde el consenso del mercado.</p></div><div class="hero-orb"><div class="orb-ring"></div><div class="orb-core">P<span>+</span></div><div class="orb-label">PICKS<br>PRO</div></div></section>
+      <section class="stats-grid"><article class="stat-card"><div class="stat-top"><span>EVENTOS ANALIZADOS</span><i>◷</i></div><strong id="events-stat">—</strong><small>Cuotas disponibles</small></article><article class="stat-card"><div class="stat-top"><span>MEJOR EDGE</span><i class="green">↗</i></div><strong id="edge-stat">—</strong><small>Ventaja sobre cuota objetivo</small></article><article class="stat-card"><div class="stat-top"><span>PICKS CON VALOR</span><i class="violet">✦</i></div><strong id="picks-stat">—</strong><small>Tras filtros de confianza</small></article><article class="stat-card"><div class="stat-top"><span>DEPORTE(S)</span><i>◎</i></div><strong id="sports-stat">—</strong><small>Disponibles en la API</small></article></section>
+      <section class="toolbar" id="picks"><div><h2>Oportunidades del mercado</h2><p id="results-caption">Conecta datos actualizados para comenzar el análisis.</p></div><div class="filters"><label class="select-wrap"><span>DEPORTE</span><select id="sport-filter"><option value="all">Todos</option></select></label><label class="select-wrap"><span>VISTA</span><select id="view-filter"><option value="all">Todos los resultados</option><option value="value">Solo picks con valor</option><option value="nobet">NO BET</option></select></label></div></section>
+      <div class="table-wrap"><table><thead><tr><th>EVENTO</th><th>MERCADO / SELECCIÓN</th><th>CUOTA</th><th>P. IMPLÍCITA</th><th>P. ESTIMADA</th><th>EDGE</th><th>CONFIANZA</th><th>STAKE</th><th>DECISIÓN</th></tr></thead><tbody id="picks-body"><tr><td colspan="9"><div class="empty"><div class="empty-icon">⌁</div><b>Todo listo para analizar</b><span>Ejecuta el análisis para cargar cuotas reales de The Odds API.</span><button class="primary-btn" id="empty-analyze">Analizar mercados</button></div></td></tr></tbody></table></div>
+      <footer><span>Las cuotas y cálculos son informativos. Apuesta responsablemente.</span><span id="data-source">Fuente: The Odds API · Sin datos simulados</span></footer>
+    </main>
+  </div><div id="toast" role="status" class="toast"></div><script src="app.js" defer></script>
+</body></html>
