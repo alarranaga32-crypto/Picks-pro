@@ -24,6 +24,11 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ODDS_REGIONS: us
         run: python scripts/generate_picks.py
+      - name: Enrich soccer analysis
+        env:
+          API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
+        run: python scripts/scripts/enrich_analysis.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
