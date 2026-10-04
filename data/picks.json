@@ -1,11 +1,352 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T05:28:43.973609+00:00",
-  "status": "needs_configuration",
-  "message": "Falta ODDS_API_KEY; no se inventaron datos.",
+  "generated_at": "2026-10-04T06:00:22.892700+00:00",
+  "status": "ok",
+  "message": "Probabilidad estimada = consenso sin margen; no es una predicción independiente.",
   "events_analyzed": 0,
   "best_edge": null,
-  "sports": [],
+  "sports": [
+    {
+      "key": "americanfootball_ncaaf",
+      "title": "NCAAF"
+    },
+    {
+      "key": "americanfootball_ncaaf_championship_winner",
+      "title": "NCAAF Championship Winner"
+    },
+    {
+      "key": "americanfootball_nfl",
+      "title": "NFL"
+    },
+    {
+      "key": "americanfootball_nfl_super_bowl_winner",
+      "title": "NFL Super Bowl Winner"
+    },
+    {
+      "key": "aussierules_aflw",
+      "title": "AFL Women's"
+    },
+    {
+      "key": "baseball_kbo",
+      "title": "KBO"
+    },
+    {
+      "key": "baseball_mlb",
+      "title": "MLB"
+    },
+    {
+      "key": "baseball_mlb_world_series_winner",
+      "title": "MLB World Series Winner"
+    },
+    {
+      "key": "baseball_npb",
+      "title": "NPB"
+    },
+    {
+      "key": "basketball_euroleague",
+      "title": "Basketball Euroleague"
+    },
+    {
+      "key": "basketball_nba",
+      "title": "NBA"
+    },
+    {
+      "key": "basketball_nba_championship_winner",
+      "title": "NBA Championship Winner"
+    },
+    {
+      "key": "basketball_nba_preseason",
+      "title": "NBA Preseason"
+    },
+    {
+      "key": "basketball_nbl",
+      "title": "NBL"
+    },
+    {
+      "key": "basketball_ncaab_championship_winner",
+      "title": "NCAAB Championship Winner"
+    },
+    {
+      "key": "basketball_wnba",
+      "title": "WNBA"
+    },
+    {
+      "key": "boxing_boxing",
+      "title": "Boxing"
+    },
+    {
+      "key": "cricket_international_t20",
+      "title": "International Twenty20"
+    },
+    {
+      "key": "cricket_test_match",
+      "title": "Test Matches"
+    },
+    {
+      "key": "golf_masters_tournament_winner",
+      "title": "Masters Tournament Winner"
+    },
+    {
+      "key": "golf_pga_championship_winner",
+      "title": "PGA Championship Winner"
+    },
+    {
+      "key": "golf_the_open_championship_winner",
+      "title": "The Open Winner"
+    },
+    {
+      "key": "golf_us_open_winner",
+      "title": "US Open Winner"
+    },
+    {
+      "key": "handball_germany_bundesliga",
+      "title": "Handball-Bundesliga"
+    },
+    {
+      "key": "icehockey_ahl",
+      "title": "AHL"
+    },
+    {
+      "key": "icehockey_liiga",
+      "title": "Liiga"
+    },
+    {
+      "key": "icehockey_nhl",
+      "title": "NHL"
+    },
+    {
+      "key": "icehockey_nhl_championship_winner",
+      "title": "NHL Championship Winner"
+    },
+    {
+      "key": "icehockey_sweden_hockey_league",
+      "title": "SHL"
+    },
+    {
+      "key": "mma_mixed_martial_arts",
+      "title": "MMA"
+    },
+    {
+      "key": "politics_us_presidential_election_winner",
+      "title": "US Presidential Elections Winner"
+    },
+    {
+      "key": "rugbyleague_nrl",
+      "title": "NRL"
+    },
+    {
+      "key": "rugbyleague_nrlw",
+      "title": "NRLW"
+    },
+    {
+      "key": "soccer_argentina_primera_division",
+      "title": "Primera División - Argentina"
+    },
+    {
+      "key": "soccer_australia_aleague",
+      "title": "A-League"
+    },
+    {
+      "key": "soccer_austria_bundesliga",
+      "title": "Austrian Football Bundesliga"
+    },
+    {
+      "key": "soccer_belgium_first_div",
+      "title": "Belgium First Div"
+    },
+    {
+      "key": "soccer_brazil_campeonato",
+      "title": "Brazil Série A"
+    },
+    {
+      "key": "soccer_brazil_serie_b",
+      "title": "Brazil Série B"
+    },
+    {
+      "key": "soccer_chile_campeonato",
+      "title": "Primera División - Chile"
+    },
+    {
+      "key": "soccer_china_superleague",
+      "title": "Super League - China"
+    },
+    {
+      "key": "soccer_conmebol_copa_libertadores",
+      "title": "Copa Libertadores"
+    },
+    {
+      "key": "soccer_conmebol_copa_sudamericana",
+      "title": "Copa Sudamericana"
+    },
+    {
+      "key": "soccer_denmark_superliga",
+      "title": "Denmark Superliga"
+    },
+    {
+      "key": "soccer_efl_champ",
+      "title": "Championship"
+    },
+    {
+      "key": "soccer_england_efl_cup",
+      "title": "EFL Cup"
+    },
+    {
+      "key": "soccer_england_league1",
+      "title": "League 1"
+    },
+    {
+      "key": "soccer_england_league2",
+      "title": "League 2"
+    },
+    {
+      "key": "soccer_epl",
+      "title": "EPL"
+    },
+    {
+      "key": "soccer_finland_veikkausliiga",
+      "title": "Veikkausliiga - Finland"
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "title": "Ligue 1 - France"
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "title": "Ligue 2 - France"
+    },
+    {
+      "key": "soccer_germany_bundesliga",
+      "title": "Bundesliga - Germany"
+    },
+    {
+      "key": "soccer_germany_bundesliga2",
+      "title": "Bundesliga 2 - Germany"
+    },
+    {
+      "key": "soccer_germany_bundesliga_women",
+      "title": "Frauen-Bundesliga"
+    },
+    {
+      "key": "soccer_germany_dfb_pokal",
+      "title": "DFB-Pokal"
+    },
+    {
+      "key": "soccer_germany_liga3",
+      "title": "3. Liga - Germany"
+    },
+    {
+      "key": "soccer_greece_super_league",
+      "title": "Super League - Greece"
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "title": "Serie A - Italy"
+    },
+    {
+      "key": "soccer_italy_serie_b",
+      "title": "Serie B - Italy"
+    },
+    {
+      "key": "soccer_japan_j_league",
+      "title": "J League"
+    },
+    {
+      "key": "soccer_korea_kleague1",
+      "title": "K League 1"
+    },
+    {
+      "key": "soccer_league_of_ireland",
+      "title": "League of Ireland"
+    },
+    {
+      "key": "soccer_mexico_ligamx",
+      "title": "Liga MX"
+    },
+    {
+      "key": "soccer_netherlands_eredivisie",
+      "title": "Dutch Eredivisie"
+    },
+    {
+      "key": "soccer_norway_eliteserien",
+      "title": "Eliteserien - Norway"
+    },
+    {
+      "key": "soccer_poland_ekstraklasa",
+      "title": "Ekstraklasa - Poland"
+    },
+    {
+      "key": "soccer_portugal_primeira_liga",
+      "title": "Primeira Liga - Portugal"
+    },
+    {
+      "key": "soccer_russia_premier_league",
+      "title": "Premier League - Russia"
+    },
+    {
+      "key": "soccer_saudi_arabia_pro_league",
+      "title": "Saudi Pro League"
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "title": "La Liga - Spain"
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "title": "La Liga 2 - Spain"
+    },
+    {
+      "key": "soccer_spl",
+      "title": "Premiership - Scotland"
+    },
+    {
+      "key": "soccer_sweden_allsvenskan",
+      "title": "Allsvenskan - Sweden"
+    },
+    {
+      "key": "soccer_sweden_superettan",
+      "title": "Superettan - Sweden"
+    },
+    {
+      "key": "soccer_switzerland_superleague",
+      "title": "Swiss Superleague"
+    },
+    {
+      "key": "soccer_turkey_super_league",
+      "title": "Turkey Super League"
+    },
+    {
+      "key": "soccer_uefa_champs_league",
+      "title": "UEFA Champions League"
+    },
+    {
+      "key": "soccer_uefa_europa_conference_league",
+      "title": "UEFA Europa Conference League"
+    },
+    {
+      "key": "soccer_uefa_europa_league",
+      "title": "UEFA Europa League"
+    },
+    {
+      "key": "soccer_uefa_nations_league",
+      "title": "UEFA Nations League"
+    },
+    {
+      "key": "soccer_usa_mls",
+      "title": "MLS"
+    },
+    {
+      "key": "tennis_atp_china_open",
+      "title": "ATP China Open"
+    },
+    {
+      "key": "tennis_atp_japan_open",
+      "title": "ATP Japan Open"
+    },
+    {
+      "key": "tennis_wta_china_open",
+      "title": "WTA China Open"
+    }
+  ],
   "picks": [],
-  "method": "Consenso sin margen; no es modelo independiente."
+  "method": "NO BET bajo 3% edge, 55% confianza o menos de 2 casas. Stake = cuarto Kelly, máximo 1 unidad."
 }
