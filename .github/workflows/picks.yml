@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
+
 permissions:
   contents: write
 concurrency:
@@ -21,7 +22,7 @@ jobs:
       - name: Generate market data
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          ODDS_REGIONS: us,mx,uk,eu,au
+          ODDS_REGIONS: us
         run: python scripts/generate_picks.py
       - name: Commit updated data
         run: |
