@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": null,
+  "generated_at": "2026-10-04T05:28:43.973609+00:00",
   "status": "needs_configuration",
-  "message": "Aún no hay cuotas. Configura ODDS_API_KEY y ejecuta el workflow manualmente para obtener datos reales.",
+  "message": "Falta ODDS_API_KEY; no se inventaron datos.",
   "events_analyzed": 0,
   "best_edge": null,
   "sports": [],
   "picks": [],
-  "method": "Sin datos simulados. La probabilidad estimada y el edge se calculan a partir del consenso de cuotas sin margen; no es un modelo independiente."
+  "method": "Consenso sin margen; no es modelo independiente."
 }
