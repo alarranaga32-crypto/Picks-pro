@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "status": "needs_configuration",
+  "message": "Aún no hay cuotas. Configura ODDS_API_KEY y ejecuta el workflow manualmente para obtener datos reales.",
+  "events_analyzed": 0,
+  "best_edge": null,
+  "sports": [],
+  "picks": [],
+  "method": "Sin datos simulados. La probabilidad estimada y el edge se calculan a partir del consenso de cuotas sin margen; no es un modelo independiente."
+}
